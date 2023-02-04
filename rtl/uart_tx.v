@@ -46,6 +46,7 @@ always @ (posedge clk) begin
     busy_reg <= 0;
     txd_reg <= 1;
     s_axis_tready_reg <= 1;
+    
   end else begin
     case (state)
       IDLE: begin

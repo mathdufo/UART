@@ -25,7 +25,6 @@ class TB:
     await RisingEdge(self.dut.clk)
     await RisingEdge(self.dut.clk)
     
-
 @cocotb.test()
 async def test(dut):
   tb = TB(dut)

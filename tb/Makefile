@@ -8,6 +8,3 @@ TOPLEVEL = uart_loop
 MODULE = test_uart
 
 include $(shell cocotb-config --makefiles)/Makefile.sim
-
-clean::
-	@rm -rf dump.vcd
