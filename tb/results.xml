@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1675520324" />
+    <testcase name="test" classname="test_uart" file="/home/mathias/Documents/uart/tb/test_uart.py" lineno="29" time="496.89004778862" sim_time_ns="4577992.001" ratio_time="9213.289783874894" />
+  </testsuite>
+</testsuites>
