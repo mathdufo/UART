@@ -5,5 +5,5 @@ The baud rate is specified by the prescale bus. It must be set to
 prescale = Fclk/(baud*16)
 ```
 
-The width of the data bus and the number of bits sent/received on the serial lined is specified by the DATA_WIDTH parameter.
+The width of the data bus and the number of bits sent/received on the serial line is specified by the DATA_WIDTH parameter.
 
